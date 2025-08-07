@@ -95,6 +95,11 @@ ol {
   gap: 30px;
 }
 
+.content__list-item {
+  margin-left: -1px;
+  padding: 1px 3px 0px 3px;
+}
+
 .content__video-card {
   display: flex;
   justify-content: space-between;
@@ -245,10 +250,10 @@ ol {
 .button {
   border: 1px solid #fff;
   color: #fff;
+  font-family: "Fira Sans Condensed";
   font-size: 18px;
   background-color: transparent;
   cursor: pointer;
-  font-family: 'Fira Sans Condensed';
 }
 
 .search-form__submit-button {
@@ -294,11 +299,6 @@ ol {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
-}
-
-.content__list-item {
-  padding: 1px 3px 0px 3px;
-  margin-left: -1px;
 }
 
 /* Кастомный скроллбар */
